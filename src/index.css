@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(25, 30, 34, 255);
+}
+
+.main-header {
+  width: 100%;
+  height: 85px;
+  background-color: rgba(29, 35, 41, 255);
+}
+
+.Logo {
+  display: inline;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 4%;
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Logo:hover {
+  cursor: pointer;
+  color: rgba(204, 205, 207, 255);
+}
+
+.credentials-main-wrapper {
+  width: 440px;
+  height: 65px;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.credentials-left-side,
+.credentials-right-side {
+  width: 48%;
+  height: 50px;
+  background: transparent;
+  border: 2px solid rgb(52, 59, 66);
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.credentials-left-side>label,
+.credentials-right-side>label {
+  color: rgb(163, 169, 178);
+  margin-left: 8px;
+}
+
+.credentials-left-side>input,
+.credentials-right-side>input {
+  width: 200px;
+  height: 20px;
+  border-style: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.credentials-left-side>input:focus,
+.credentials-right-side>input:focus {
+  outline: none;
+}
+
+/* .credentials-right-side {
+  width: 50%;
+  background: cornsilk;
+} */
+
+.language-current-status {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(54, 86, 119);
+  display: flex;
+  left: 90%;
+  position: absolute;
+  top: 22.5px;
+  border-radius: 100%;
+}
+
+.language-current-status>img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+
+.language-other-variants {
+  width: 30px;
+  height: 100px;
+  left: 90%;
+  position: absolute;
+  top: 75px;
+}
+
+.language-other-variants>img {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+.sell-items-main-wrapper {
+  width: 80%;
+  height: 80vh;
+  margin-left: 10%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cart {
+  width: 300px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.cart>img {
+  border-radius: 10px 10px 0 0;
+  transition: transform 500ms ease;
+}
+
+.cart>img:hover {
+  transform: scale(1.05);
+}
+
+.cart-item-name {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 8px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cart-item-colors {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 8px;
+}
+
+.cart-item-price {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 8px;
+}
+
+.cart-add-to-bag {
+  color: red;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 280px;
+  margin-left: -35px;
+  transition: 0.3s linear;
+}
+
+.cart-in-header {
+  width: 30px;
+  height: 30px;
+  color: red;
+  margin-left: 83%;
+  margin-top: 27.5px;
+  transition: 0.3s linear;
+}
+
+.cart-in-header:hover {
+  cursor: pointer;
+  color: rgb(167, 12, 12);
+}
+
+.cart-add-to-bag:hover {
+  cursor: pointer;
+  color: rgb(167, 12, 12);
+}
